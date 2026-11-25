@@ -1,0 +1,19 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Large raw satellite data downloads (optional, regenerated on demand)
+data/goes_cache/*.part
+data/*.gz
+data/*.INX
+
